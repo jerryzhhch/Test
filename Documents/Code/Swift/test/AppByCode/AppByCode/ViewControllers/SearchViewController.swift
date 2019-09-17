@@ -32,7 +32,7 @@ class SearchViewController: UIViewController {
 
         buildView()
 
-        searchBar.delegate = self
+        searchBar.delegate =    self
         searchTableView.dataSource = self
         searchTableView.delegate = self
         searchTableView.register(MyTableCell.self, forCellReuseIdentifier: "MyTableCell")
