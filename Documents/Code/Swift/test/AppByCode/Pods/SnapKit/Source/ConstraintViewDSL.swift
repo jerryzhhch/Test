@@ -54,7 +54,7 @@ public struct ConstraintViewDSL: ConstraintAttributesDSL {
         get {
             return self.view.contentHuggingPriority(for: .horizontal).rawValue
         }
-        set {
+        nonmutating set {
             self.view.setContentHuggingPriority(LayoutPriority(rawValue: newValue), for: .horizontal)
         }
     }
@@ -63,7 +63,7 @@ public struct ConstraintViewDSL: ConstraintAttributesDSL {
         get {
             return self.view.contentHuggingPriority(for: .vertical).rawValue
         }
-        set {
+        nonmutating set {
             self.view.setContentHuggingPriority(LayoutPriority(rawValue: newValue), for: .vertical)
         }
     }
@@ -72,7 +72,7 @@ public struct ConstraintViewDSL: ConstraintAttributesDSL {
         get {
             return self.view.contentCompressionResistancePriority(for: .horizontal).rawValue
         }
-        set {
+        nonmutating set {
             self.view.setContentCompressionResistancePriority(LayoutPriority(rawValue: newValue), for: .horizontal)
         }
     }
@@ -81,7 +81,7 @@ public struct ConstraintViewDSL: ConstraintAttributesDSL {
         get {
             return self.view.contentCompressionResistancePriority(for: .vertical).rawValue
         }
-        set {
+        nonmutating set {
             self.view.setContentCompressionResistancePriority(LayoutPriority(rawValue: newValue), for: .vertical)
         }
     }

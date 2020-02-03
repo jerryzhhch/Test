@@ -6,5 +6,8 @@ target 'AppByCode' do
   use_frameworks!
 
   # Pods for AppByCode
-  pod 'SnapKit' 
+  pod 'SnapKit'
+  pod 'RxSwift' 
+  pod 'RxCocoa' 
+
 end

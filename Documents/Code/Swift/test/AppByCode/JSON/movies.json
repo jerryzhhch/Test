@@ -1,0 +1,40 @@
+{
+  "Categories": [
+    {
+      "title": "Recommended",
+      "movies": [
+        "Spiderman 1",
+        "Olympus",
+        "Watchman"
+      ]
+    },
+    {
+      "title": "Youtube",
+      "movies": [
+        "Logan paul movie",
+        "Olympus 2",
+        "Watchman Show"
+      ]
+    },
+    {
+      "title": "Netflix",
+      "movies": [
+        "forestGum",
+        "Green miles",
+        "Spiderman 2",
+        "Spiderman 3",
+        "Top gun"
+      ]
+    },
+    {
+      "title": "Hulu",
+      "movies": [
+        "Spiderman 1",
+        "Green miles 4",
+        "Spiderman 2",
+        "Spiderman 3",
+        "Top gun"
+      ]
+    }
+  ]
+}

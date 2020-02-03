@@ -1,0 +1,53 @@
+[
+    {
+        "_id": "1",
+        "name": "Test1",
+        "role": "student",
+        "house": "Hufflepuff",
+        "school": "Hogwarts School of Witchcraft and Wizardry",
+        "ministryOfMagic": false,
+        "orderOfThePhoenix": false,
+        "dumbledoresArmy": true,
+        "deathEater": false,
+        "bloodStatus": "half-blood",
+        "species": "human"
+    },
+    {
+        "_id": "2",
+        "name": "Test2",
+        "role": "Professor, Ancient Runes",
+        "school": "Hogwarts School of Witchcraft and Wizardry",
+        "ministryOfMagic": false,
+        "orderOfThePhoenix": false,
+        "dumbledoresArmy": true,
+        "deathEater": false,
+        "bloodStatus": "unknown",
+        "species": "human"
+    },
+    {
+        "_id": "3",
+        "name": "Test3",
+        "role": "student",
+        "house": "Gryffindor",
+        "school": "Hogwarts School of Witchcraft and Wizardry",
+        "ministryOfMagic": false,
+        "orderOfThePhoenix": false,
+        "dumbledoresArmy": true,
+        "deathEater": false,
+        "bloodStatus": "unknown",
+        "species": "human"
+    },
+    {
+        "_id": "4",
+        "name": "Test4",
+        "role": "student",
+        "house": "Ravenclaw",
+        "school": "Hogwarts School of Witchcraft and Wizardry",
+        "ministryOfMagic": false,
+        "orderOfThePhoenix": false,
+        "dumbledoresArmy": true,
+        "deathEater": false,
+        "bloodStatus": "unknown",
+        "species": "human"
+    }
+]

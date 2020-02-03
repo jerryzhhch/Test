@@ -126,6 +126,9 @@ public class ConstraintMaker {
     public var edges: ConstraintMakerExtendable {
         return self.makeExtendableWithAttributes(.edges)
     }
+    public var directionalEdges: ConstraintMakerExtendable {
+        return self.makeExtendableWithAttributes(.directionalEdges)
+    }
     public var size: ConstraintMakerExtendable {
         return self.makeExtendableWithAttributes(.size)
     }
@@ -136,6 +139,11 @@ public class ConstraintMaker {
     @available(iOS 8.0, *)
     public var margins: ConstraintMakerExtendable {
         return self.makeExtendableWithAttributes(.margins)
+    }
+
+    @available(iOS 8.0, *)
+    public var directionalMargins: ConstraintMakerExtendable {
+        return self.makeExtendableWithAttributes(.directionalMargins)
     }
 
     @available(iOS 8.0, *)
