@@ -7,7 +7,7 @@
 //
 
 protocol MovieViewable {
-    var categories: [Category] { get }
+    var categories: [CategoryInfo] { get }
     func getCategories()
 }
 
@@ -15,7 +15,7 @@ class MovieViewModel: MovieViewable {
     
     private var service: ServiceLayer
 
-    var categories: [Category] = []
+    var categories: [CategoryInfo] = []
     
     init(service: ServiceLayer) {
         self.service = service

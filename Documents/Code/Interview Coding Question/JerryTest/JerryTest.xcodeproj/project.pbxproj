@@ -33,6 +33,11 @@
 		7049AE1823E8DCC300979FFF /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7049AE1723E8DCC300979FFF /* CategoryCell.swift */; };
 		7049AE1A23E8EBAF00979FFF /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7049AE1923E8EBAF00979FFF /* MovieCell.swift */; };
 		7049AE1E23E90C7500979FFF /* MockMovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7049AE1D23E90C7500979FFF /* MockMovieViewModel.swift */; };
+		706BFBA423EC814100E68B1A /* CategoryCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706BFBA323EC814100E68B1A /* CategoryCellTest.swift */; };
+		706BFBA623EC85DB00E68B1A /* ServiceLayerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706BFBA523EC85DB00E68B1A /* ServiceLayerTest.swift */; };
+		706BFBA823EC87F800E68B1A /* FakeServiceLayerImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706BFBA723EC87F800E68B1A /* FakeServiceLayerImp.swift */; };
+		7086426723EC8B6600F09E23 /* MovieCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7086426623EC8B6600F09E23 /* MovieCellTest.swift */; };
+		7086426923EC8DCB00F09E23 /* CityCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7086426823EC8DCB00F09E23 /* CityCellTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +82,11 @@
 		7049AE1723E8DCC300979FFF /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		7049AE1923E8EBAF00979FFF /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		7049AE1D23E90C7500979FFF /* MockMovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMovieViewModel.swift; sourceTree = "<group>"; };
+		706BFBA323EC814100E68B1A /* CategoryCellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCellTest.swift; sourceTree = "<group>"; };
+		706BFBA523EC85DB00E68B1A /* ServiceLayerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayerTest.swift; sourceTree = "<group>"; };
+		706BFBA723EC87F800E68B1A /* FakeServiceLayerImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeServiceLayerImp.swift; sourceTree = "<group>"; };
+		7086426623EC8B6600F09E23 /* MovieCellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCellTest.swift; sourceTree = "<group>"; };
+		7086426823EC8DCB00F09E23 /* CityCellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCellTest.swift; sourceTree = "<group>"; };
 		F92EDDD8AF11DC7CE5AC2E96 /* Pods-JerryTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JerryTest.debug.xcconfig"; path = "Target Support Files/Pods-JerryTest/Pods-JerryTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,11 +165,11 @@
 		7040267E23E6557600551F97 /* CityProject */ = {
 			isa = PBXGroup;
 			children = (
+				7040268F23E658CB00551F97 /* City.swift */,
 				7040268D23E6577500551F97 /* CityViewModel.swift */,
 				7040269723E65CB300551F97 /* CityViewController.swift */,
 				704026A023E7548000551F97 /* CityView.swift */,
 				704026A223E7692800551F97 /* CityCell.swift */,
-				7040268F23E658CB00551F97 /* City.swift */,
 			);
 			path = CityProject;
 			sourceTree = "<group>";
@@ -167,9 +177,10 @@
 		7040268423E6569800551F97 /* JerryAllTests */ = {
 			isa = PBXGroup;
 			children = (
+				7086426B23EC8EA800F09E23 /* ServiceLayerUnitTest */,
+				7049AE0823E8B3DF00979FFF /* MovieUnitTests */,
+				7040269C23E6B33300551F97 /* CityUnitTests */,
 				7040269B23E6B32100551F97 /* Mock */,
-				7049AE0823E8B3DF00979FFF /* MovieTests */,
-				7040269C23E6B33300551F97 /* CityTests */,
 				7040268723E6569800551F97 /* Info.plist */,
 			);
 			path = JerryAllTests;
@@ -185,35 +196,47 @@
 			path = Mock;
 			sourceTree = "<group>";
 		};
-		7040269C23E6B33300551F97 /* CityTests */ = {
+		7040269C23E6B33300551F97 /* CityUnitTests */ = {
 			isa = PBXGroup;
 			children = (
 				7040268523E6569800551F97 /* CityViewModelTest.swift */,
 				7040269323E65B4E00551F97 /* CityViewControllerTest.swift */,
+				7086426823EC8DCB00F09E23 /* CityCellTest.swift */,
 			);
-			path = CityTests;
+			path = CityUnitTests;
 			sourceTree = "<group>";
 		};
 		7049AE0723E8B1C200979FFF /* MovieProject */ = {
 			isa = PBXGroup;
 			children = (
+				7049AE0D23E8B8D300979FFF /* Category.swift */,
 				7049AE0B23E8B52C00979FFF /* MovieViewModel.swift */,
 				7049AE1123E8D3AA00979FFF /* MovieViewController.swift */,
 				7049AE1523E8D49000979FFF /* CategoryView.swift */,
 				7049AE1723E8DCC300979FFF /* CategoryCell.swift */,
 				7049AE1923E8EBAF00979FFF /* MovieCell.swift */,
-				7049AE0D23E8B8D300979FFF /* Category.swift */,
 			);
 			path = MovieProject;
 			sourceTree = "<group>";
 		};
-		7049AE0823E8B3DF00979FFF /* MovieTests */ = {
+		7049AE0823E8B3DF00979FFF /* MovieUnitTests */ = {
 			isa = PBXGroup;
 			children = (
 				7049AE0923E8B4C800979FFF /* MovieViewModelTest.swift */,
 				7049AE0F23E8D2F000979FFF /* MovieViewControllerTest.swift */,
+				706BFBA323EC814100E68B1A /* CategoryCellTest.swift */,
+				7086426623EC8B6600F09E23 /* MovieCellTest.swift */,
 			);
-			path = MovieTests;
+			path = MovieUnitTests;
+			sourceTree = "<group>";
+		};
+		7086426B23EC8EA800F09E23 /* ServiceLayerUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				706BFBA523EC85DB00E68B1A /* ServiceLayerTest.swift */,
+				706BFBA723EC87F800E68B1A /* FakeServiceLayerImp.swift */,
+			);
+			path = ServiceLayerUnitTest;
 			sourceTree = "<group>";
 		};
 		82C245DFECE38069B396FE86 /* Pods */ = {
@@ -391,6 +414,7 @@
 				7049AE1A23E8EBAF00979FFF /* MovieCell.swift in Sources */,
 				7049AE1E23E90C7500979FFF /* MockMovieViewModel.swift in Sources */,
 				704026A323E7692800551F97 /* CityCell.swift in Sources */,
+				706BFBA823EC87F800E68B1A /* FakeServiceLayerImp.swift in Sources */,
 				7040269023E658CB00551F97 /* City.swift in Sources */,
 				704026A123E7548000551F97 /* CityView.swift in Sources */,
 				7040269823E65CB300551F97 /* CityViewController.swift in Sources */,
@@ -404,8 +428,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7040268623E6569800551F97 /* CityViewModelTest.swift in Sources */,
+				706BFBA623EC85DB00E68B1A /* ServiceLayerTest.swift in Sources */,
+				706BFBA423EC814100E68B1A /* CategoryCellTest.swift in Sources */,
+				7086426723EC8B6600F09E23 /* MovieCellTest.swift in Sources */,
 				7040269423E65B4E00551F97 /* CityViewControllerTest.swift in Sources */,
 				7049AE0A23E8B4C800979FFF /* MovieViewModelTest.swift in Sources */,
+				7086426923EC8DCB00F09E23 /* CityCellTest.swift in Sources */,
 				7049AE1023E8D2F000979FFF /* MovieViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

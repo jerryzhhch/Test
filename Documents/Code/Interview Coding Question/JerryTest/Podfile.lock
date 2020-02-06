@@ -1,16 +1,24 @@
 PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
+  - FBSnapshotTestCase
   - SnapKit
 
 SPEC REPOS:
   trunk:
+    - FBSnapshotTestCase
     - SnapKit
 
 SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 8ec4985b57f734523af9195ef23392206b61a431
+PODFILE CHECKSUM: 9c09cba0dc1512b4a89632675c9aa64725051e3c
 
 COCOAPODS: 1.8.4

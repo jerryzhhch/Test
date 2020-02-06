@@ -7,10 +7,10 @@
 //
 
 struct CategoryResponse: Codable {
-    let Categories: [Category]
+    let Categories: [CategoryInfo]
 }
 
-struct Category: Codable {
+struct CategoryInfo: Codable {
     let title: String
     let movies: [String]?
 }

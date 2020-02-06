@@ -6,8 +6,6 @@
 //  Copyright © 2020 Jerry Zhou. All rights reserved.
 //
 
-import Foundation
-
 struct City: Codable {
     let city: String
     let state: String

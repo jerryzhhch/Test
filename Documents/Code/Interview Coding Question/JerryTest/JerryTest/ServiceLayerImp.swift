@@ -9,7 +9,7 @@
 import Foundation
 
 typealias CityHandler = ([City]) -> Void
-typealias CategoryHandler = ([Category]) -> Void
+typealias CategoryHandler = ([CategoryInfo]) -> Void
 
 protocol ServiceLayer {
     func getJSONCites(complete: @escaping CityHandler)

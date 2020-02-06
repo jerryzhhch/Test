@@ -7,7 +7,7 @@
 //
 
 
-class MockServiceLayer: ServiceLayer {
+final class MockServiceLayer: ServiceLayer {
     
     static let shared = MockServiceLayer()
     init() {}

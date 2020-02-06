@@ -16,7 +16,7 @@ class MovieViewModelTest: XCTestCase {
     private var subject: MovieViewable!
     
     override func setUp() {
-        mockService = MockServiceLayer()
+        mockService = MockServiceLayer.shared
         subject = MovieViewModel(service: mockService)
     }
     

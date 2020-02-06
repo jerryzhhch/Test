@@ -16,7 +16,7 @@ class CityViewModelTest: XCTestCase {
     private var subject: CityViewable!
 
     override func setUp() {
-        mockService = MockServiceLayer()
+        mockService = MockServiceLayer.shared
         subject = CityViewModel(service: mockService)
     }
     
