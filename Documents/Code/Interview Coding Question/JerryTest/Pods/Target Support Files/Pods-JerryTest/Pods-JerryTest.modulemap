@@ -1,0 +1,6 @@
+framework module Pods_JerryTest {
+  umbrella header "Pods-JerryTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
